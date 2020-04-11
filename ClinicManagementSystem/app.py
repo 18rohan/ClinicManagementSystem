@@ -30,7 +30,21 @@ def index():
 		number_rows = mycursor.execute('select * from Patients3')
 		all_data = len(mycursor.fetchall())
 
-		return render_template('index.html', number_rows= all_data)
+		mycursor5 = clinic.cursor()
+		number_rows_appt = mycursor5.execute('select * from Appointments3')
+		all_data_appt =len(mycursor5.fetchall())
+
+		mycursor = clinic.cursor()
+		Valdata = mycursor.execute('select * from Appointments3')
+		patient_Details3 = mycursor.fetchall()
+		#return render_template('/appointments.html',patient_details = patient_Details3)
+
+		mycursor = clinic.cursor()
+		resultVal = mycursor.execute('select * from Patients3')
+		patientDetails = mycursor.fetchall()
+
+
+		return render_template('index.html', number_rows= all_data, numberRowsAppt = all_data_appt, patient_details = patient_Details3, patientDetails = patientDetails)
 
 
 @app.route('/appointments.html', methods = ['GET', 'POST'])
@@ -73,7 +87,21 @@ def index1():
 	number_rows = mycursor.execute('select * from Patients3')
 	all_data = len(mycursor.fetchall())
 
-	return render_template('index.html', number_rows = all_data)
+	mycursor5 = clinic.cursor()
+	number_rows_appt = mycursor5.execute('select * from Appointments3')
+	all_data_appt =len(mycursor5.fetchall())
+
+	mycursor = clinic.cursor()
+	Valdata = mycursor.execute('select * from Appointments3')
+	patient_Details3 = mycursor.fetchall()
+	#return render_template('/appointments.html',patient_details = patient_Details3)
+
+	mycursor = clinic.cursor()
+	resultVal = mycursor.execute('select * from Patients3')
+	patientDetails = mycursor.fetchall()
+
+
+	return render_template('index.html', number_rows = all_data, numberRowsAppt = all_data_appt, patient_details = patient_Details3, patientDetails = patientDetails )
 
 @app.route('/patients.html', methods = ['GET', 'POST'])
 def patient():
@@ -135,7 +163,7 @@ def finish():
 
 
 if __name__ == '__main__':
-	app.run(port='5040', debug= True)
+	app.run(port='5044', debug= True)
 	finish()
 
 

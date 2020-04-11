@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d54cb3-5f1a-473e-8837-5b784577f5e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HospitalManagementSystem_PYTHON/hms_py/.idea/HospitalManagementSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python_OOPS/.idea/Python_OOPS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add-appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add-appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add-patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add-patient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/appointments.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/appointments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/patients.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patients.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +122,16 @@
     </state>
     <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586434871370" />
     <state width="1419" height="226" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1586374211834" />
-    <state x="450" y="200" width="540" height="540" key="StructurePopup" timestamp="1586269092392">
+    <state x="450" y="200" width="540" height="540" key="StructurePopup" timestamp="1586546270610">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="450" y="200" width="540" height="540" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1586269092392" />
-    <state x="380" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1586534686743">
-      <screen x="0" y="0" width="1440" height="855" />
+    <state x="450" y="200" width="540" height="540" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1586546270610" />
+    <state x="450" y="208" width="540" height="500" key="StructurePopup/0.23.1440.832@0.23.1440.832" timestamp="1586545514867" />
+    <state x="380" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1586583845258">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="380" y="268" key="com.intellij.ide.util.TipDialog/0.0.1440.855@0.0.1440.855" timestamp="1586534686743" />
     <state x="380" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586435795338" />
+    <state x="380" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.832@0.23.1440.832" timestamp="1586583845258" />
   </component>
 </project>
